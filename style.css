@@ -1,34 +1,11 @@
 .eclipse{
     background-color: #649549;
-    background-size: cover;
-    display: table;
-    overflow: auto;
-   
-    
-    font-family: sans-serif;
+
 }
-.text{
-    color: #eaab1b #6cb840;
-}
-.bar{
-    text-align: center;
-}
-.bar ul{
-    display: inline-flex;
-    list-style: none;
+li{
+    display: inline-table;
+    padding: 15px;
     color: black;
-}
-.bar ul li{
-    width: 120px;
-    margin: 5px;
-    padding: 10px;
-}
-.display{
-    
-    float: right;
-    margin-left: ;
-}
-.eat{
-    float: left;
-    margin-right: 10px;
+    box-sizing: border-box;
+  
 }
