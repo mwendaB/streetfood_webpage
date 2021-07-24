@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .eclipse{
     background-color: #649549;
 
@@ -26,4 +29,20 @@ li{
     font-size: ;
     text-decoration: none;
     padding: 20px;
+}
+.eating{
+    width: auto;
+    height: auto;
+  object-fit: scale-down;
+}
+.container{
+    max-width: auto;
+    margin: auto;
+    overflow: auto;
+}
+.gallary{
+    margin: 5px;
+    border: 1px;
+    float: left;
+    width: auto;
 }
