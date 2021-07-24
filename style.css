@@ -36,10 +36,17 @@ li{
     text-decoration: none;
     padding: 20px;
 }
+.first{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
 .eating{
     width: auto;
     height: auto;
-  object-fit: scale-down;
+  float: left;
+  width: 500px;
 }
 #juice{
     float: left;
