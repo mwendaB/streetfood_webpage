@@ -9,3 +9,21 @@ li{
     box-sizing: border-box;
   
 }
+.button{
+    background-color: #649549;
+    color: white;
+}
+.img{
+    width: auto;
+    height: auto;
+    position: absolute;
+    float: right;
+    right: 160px;
+
+}
+.bar a{
+    color: black;
+    font-size: ;
+    text-decoration: none;
+    padding: 20px;
+}
