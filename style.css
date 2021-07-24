@@ -20,7 +20,7 @@ li{
 }
 .button{
     background-color: #649549;
-    color: white;
+    
 }
 .img{
     width: auto;
@@ -41,6 +41,11 @@ li{
     height: auto;
   object-fit: scale-down;
 }
-.juice{
+#juice{
     float: left;
+    object-fit: cover;
+}
+#eat{
+    color: #eaab1b;
+    
 }
