@@ -27,6 +27,8 @@
     
     float: right;
     margin-left: ;
-    
-    
+}
+.eat{
+    float: left;
+    margin-right: 10px;
 }
