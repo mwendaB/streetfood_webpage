@@ -1,17 +1,19 @@
 *{
-    position:relatiS;
+
 }
 #circle{
     position: absolute;
     background-color: #649549;
     transform: translate(0%, -50%, -50%, 0%);
-    width: 1000px;
+    width: 900px;
     height: 800px;
     border-radius: 50%;
     opacity: 0.4;
     bottom: 30%;
     left: 33%;
     z-index: 2;
+    margin: -15px -15px;
+    margin-bottom: ;
     shape-outside: ellipse(300px, 500px at 100% 50%);
 
 }
@@ -36,11 +38,11 @@ li{
     display: inline-block;
     font-size: 14px;
     background: linear-gradient(, #6CB840);
-    border-radius: 6px;
+    border-radius: 20px;
     padding: 10px 20px;
     box-sizing: border-box;
     text-decoration: none;
-   background-color: #6CB840;
+    background-color: #6CB840;
    
 
 }
@@ -60,33 +62,89 @@ li{
 }
 .anime{
     text-align: center;
+    font-size: 35px;
     
 
 }
 .eating{
+    width: 700px;
+   margin: -20px;
     float: left;
-    margin-left: -150px;
+  vertical-align: middle;
+    object-fit: cover;
+}
+span{
+    display: inline-block;
 }
 #eat{
     color: #EAAB1B;
     font-size: 25px;
 }
-.first{
+#left{
+    float: left;
+}
+#first{
     float: left;
     width: 25%;
     padding: 40px;
     text-align: center;
 }
-.second{
+#second{
     float: left;
     width: 25%;
     padding: 40px;
     text-align: center;
 }
-.row::after{
+#row::after{
     text-align: justify;
     text-justify: inter-word;
     clear: both;
     display: table;
+  margin-bottom: auto;
+}
+#juice{
+   float: left; 
+   margin-left: -20px;
+   m
+}
+.hots{
+    font-size: 35px;
+    margin-bottom: 20px;
     background-color: #C9ECB5;
+}
+.center{
+ margin-left: 300px;
+ font-size: 50px;
+}
+.special{
+ margin-left: 600px;
+}
+.image{
+    background-color: #C9ECB5;
+    background-image: url("Assets/abhishek-hajare-kkrXVKK-jhg-unsplash-removebg-preview.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#contact{
+    background-color: #FFD77C;
+  text-align: center;
+  font-size: 40px;
+}
+#contact h3{
+    color:black green;
+}
+
+footer{
+    font-size: 50px;
+    background-color: #C9ECB5;
+}
+.email{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 16%;
+    border: 1px solid;
+    outline: none;
 }
