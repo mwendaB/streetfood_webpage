@@ -13,7 +13,6 @@
     left: 33%;
     z-index: 2;
     margin: -15px -15px;
-    margin-bottom: ;
     shape-outside: ellipse(300px, 500px at 100% 50%);
 
 }
@@ -44,7 +43,7 @@ li{
     padding: 10px 20px;
     box-sizing: border-box;
     text-decoration: none;
-    background-color: #6CB840;
+    background-color: #6cb840;
    
 
 }
@@ -56,15 +55,13 @@ li{
     right: 280px;
     
 }
+
 .bar a{
     color: black;
-    font-size: ;
     text-decoration: none;
     padding: 20px;
 }
-.size{
-    margin: ;
-}
+
 .anime {
     height: 1opx;
     text-align: right;
@@ -159,7 +156,7 @@ span{
  margin-left: -200px;
  ;
  font-size: 50px;
- color:;
+ 
 }
 .special{
  margin-left: 600px;
@@ -187,12 +184,12 @@ footer {
     background-color: #C9ECB5;
 
 }
+.footer{
+    border-style:none dashed none none;
+}
 .h6{
     font-size: 25px;
 }
 .p{
     font-size: 19px;
-}
-style{
-    border-style: none dotted none none;
 }
