@@ -65,10 +65,13 @@ li{
 .size{
     margin: ;
 }
-.anime{
+.anime {
+    height: 1opx;
     text-align: right;
     font-size: 40.5px;
-    margin-top: 10px ;
+    flex-direction: row;
+    float: right;
+    background-color: white;
     
 
 }
@@ -88,17 +91,49 @@ span{
     color: #EAAB1B;
     font-size: 25px;
 }
-#left{
-    float: left;
+.explore{
+    background-color: #C9ECB5;
+    text-align: center;
+    
+    }
+.explore >h2{
+    text-align: center;
 }
-
-.flex{
+.column{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 80px;
+    padding-top: 10px;
 }
+.image{
+    height: 120px;
+    float: left; 
+    margin-top: 100px;
+}
+.column .first, .second, .third{
+    height: 120px;
+    width: 200px;
+    margin:  40px;
+    border-bottom-right-radius: 50px;
+    background-color: white;
+    padding: 15px;
+    
+}
+.column .forth, .fifth, .sixth{
+    height: 120px;
+    width: 200px;
+    margin:  40px;
+    border-bottom-right-radius: 50px;
+    background-color: white;
+    padding: 15px;
+    
+}
+.first >p, .second >p, .third >p, .fifth >p, .sixth >p{
+    margin-left: 80px;
+    text-align: center;
+}
+
 
 
 
@@ -138,11 +173,6 @@ span{
 #contact h3{
     color:black green;
 }
-
-footer{
-    font-size: 50px;
-    background-color: #C9ECB5;
-}
 .email{
     border-radius: 20px;
     padding: 10px;
@@ -150,4 +180,19 @@ footer{
     width: 16%;
     border: 1px solid;
     outline: none;
+}
+
+footer {
+    
+    background-color: #C9ECB5;
+
+}
+.h6{
+    font-size: 25px;
+}
+.p{
+    font-size: 19px;
+}
+style{
+    border-style: none dotted none none;
 }
