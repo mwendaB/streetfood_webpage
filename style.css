@@ -66,17 +66,20 @@ li{
     margin: ;
 }
 .anime{
-    text-align: center;
-    font-size: 35px;
+    text-align: right;
+    font-size: 40.5px;
+    margin-top: 10px ;
     
 
 }
 .eating{
-    width: 700px;
-   margin: -20px;
+    width: 598px;
+    height: 598px;
+    object-fit: contain;
+   margin-left: -40px;
+   margin-right: 10px;
     float: left;
-  vertical-align: middle;
-    object-fit: cover;
+  
 }
 span{
     display: inline-block;
@@ -89,6 +92,15 @@ span{
     float: left;
 }
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .juice{
    float: left; 
@@ -96,9 +108,7 @@ span{
    position: relative;
    margin-top: -90px;
    margin-bottom: -100px;
-   object-fit: contain;
-
-   
+   object-fit: contain; 
 }
 .Burger{
     position:relative;
