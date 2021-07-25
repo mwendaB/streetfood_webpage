@@ -22,6 +22,8 @@
     background-color: silver;
     position: relative;
     font-size: 26px;
+    margin-left: 10px;
+    overflow: auto;
 }
 #street{
     color: #649549, #EAAB1B;
@@ -60,6 +62,9 @@ li{
     text-decoration: none;
     padding: 20px;
 }
+.size{
+    margin: ;
+}
 .anime{
     text-align: center;
     font-size: 35px;
@@ -83,25 +88,8 @@ span{
 #left{
     float: left;
 }
-#first{
-    float: left;
-    width: 25%;
-    padding: 40px;
-    text-align: center;
-}
-#second{
-    float: left;
-    width: 25%;
-    padding: 40px;
-    text-align: center;
-}
-#row::after{
-    text-align: justify;
-    text-justify: inter-word;
-    clear: both;
-    display: table;
-  margin-bottom: auto;
-}
+
+
 .juice{
    float: left; 
    margin-left: -20px;
@@ -124,8 +112,9 @@ span{
 }
 .center{
  margin-left: -200px;
+ ;
  font-size: 50px;
- color: ivory;
+ color:;
 }
 .special{
  margin-left: 600px;
