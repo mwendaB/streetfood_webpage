@@ -1,5 +1,5 @@
-body{
-    position:;
+*{
+    position:relatiS;
 }
 #circle{
     position: absolute;
@@ -44,7 +44,12 @@ li{
    
 
 }
-.img{
+.img{ 
+   
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    right: 280px;
     
 }
 .bar a{
@@ -69,17 +74,18 @@ li{
 .first{
     float: left;
     width: 25%;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
 }
 .second{
-    float: right;
+    float: left;
     width: 25%;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
 }
 .row::after{
-    content: "";
+    text-align: justify;
+    text-justify: inter-word;
     clear: both;
     display: table;
     background-color: #C9ECB5;
