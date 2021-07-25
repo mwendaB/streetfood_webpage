@@ -102,31 +102,35 @@ span{
     display: table;
   margin-bottom: auto;
 }
-#juice{
+.juice{
    float: left; 
    margin-left: -20px;
-   m
+   position: relative;
+   margin-top: -90px;
+   margin-bottom: -100px;
+   object-fit: contain;
+
+   
+}
+.Burger{
+    position:relative;
+    margin-left: -350px;
+    margin-bottom: -88px;
 }
 .hots{
-    font-size: 35px;
+    font-size: 38px;
     margin-bottom: 20px;
     background-color: #C9ECB5;
 }
 .center{
- margin-left: 300px;
+ margin-left: -200px;
  font-size: 50px;
+ color: ivory;
 }
 .special{
  margin-left: 600px;
 }
-.image{
-    background-color: #C9ECB5;
-    background-image: url("Assets/abhishek-hajare-kkrXVKK-jhg-unsplash-removebg-preview.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: left;
-    
-}
+
 #contact{
     background-color: #FFD77C;
   text-align: center;
