@@ -1,8 +1,7 @@
-*{
 
-}
 #circle{
     position: absolute;
+    overflow: scroll;
     background-color: #649549;
     transform: translate(0%, -50%, -50%, 0%);
     width: 900px;
@@ -70,7 +69,7 @@ li{
 }
 .eating{
     object-fit: contain;
-   margin-left: -90px;
+   margin-left: -100px;
   
     float: left;
   
@@ -91,50 +90,53 @@ span{
     text-align: center;
 }
 .column{
+    text-align: right;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 80px;
     padding-top: 10px;
+    
 }
+
 .image{
     height: 120px;
     float: left; 
     margin-top: 100px;
 }
 .column .first, .second, .third{
-    height: 120px;
-    width: 200px;
+    height: 128px;
+    width: 215px;
     margin:  40px;
     border-bottom-right-radius: 50px;
     background-color: white;
     padding: 15px;
+    margin-bottom: -100px;
+    margin-right: -8px;
     
 }
 .column .forth, .fifth, .sixth{
-    height: 120px;
-    width: 200px;
+    height: 128px;
+    width: 215px;
     margin:  40px;
     border-bottom-right-radius: 50px;
     background-color: white;
     padding: 15px;
+    margin-bottom: -100px;
+    margin-right: -8px;
     
 }
 .first >p, .second >p, .third >p, .fifth >p, .sixth >p{
     margin-left: 80px;
     text-align: center;
 }
-
-
-
-
 .juice{
-   float: left; 
-   margin-left: -20px;
-   position: relative;
-   margin-top: -90px;
-   margin-bottom: -100px;
-   object-fit: contain; 
+    float: left; 
+    margin-left: -20px;
+    position: relative;
+    margin-top: -90px;
+    margin-bottom: -100px;
+    object-fit: contain; 
 }
 .Burger{
     position:relative;
@@ -176,6 +178,7 @@ span{
 footer {
     
     background-color: #C9ECB5;
+    margin-bottom: 
 
 }
 .footer{
@@ -186,4 +189,14 @@ footer {
 }
 .p{
     font-size: 19px;
+}
+.mover{
+    text-align: center;
+    margin-bottom: auto;
+}
+.mover1{
+    text-align: right block;
+}
+    
+    
 }
