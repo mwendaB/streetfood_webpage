@@ -182,12 +182,13 @@ span{
 footer {
     
     background-color: #C9ECB5;
-}
-.display{
-    d
     
 }
+    
+    
 .footer{
+    
+    border-r
     border-style:none dashed none none;
 }
 .h6{
@@ -198,6 +199,9 @@ footer {
 }
 .mover{
     
+    text-align: center;
+    vertical-align: top;
+    margin-top: 20px;
     
 }
 .mover1{
@@ -205,4 +209,3 @@ footer {
 }
     
     
-}
