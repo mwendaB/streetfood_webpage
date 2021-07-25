@@ -1,6 +1,24 @@
+body{
+    position:;
+}
+#circle{
+    position: absolute;
+    background-color: #649549;
+    transform: translate(0%, -50%, -50%, 0%);
+    width: 1000px;
+    height: 800px;
+    border-radius: 50%;
+    opacity: 0.4;
+    bottom: 30%;
+    left: 33%;
+    z-index: 2;
+    shape-outside: ellipse(300px, 500px at 100% 50%);
+
+}
 
 .eclipse{
-    background-color: #649549;
+    background-color: silver;
+    position: relative;
 
 }
 li{
@@ -16,6 +34,8 @@ li{
 }
 .img{
     margin-right: -200;
+    float: right;
+    right: 60%;
 
 }
 .bar a{
@@ -28,4 +48,7 @@ li{
     float: left;
     margin-left: -150px;
 }
-
+#eat{
+    color: #EAAB1B;
+    font-size: 25px;
+}
