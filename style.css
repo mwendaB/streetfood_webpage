@@ -187,8 +187,12 @@ footer {
     
     
 .footer{
-    
-    border-r
+    display: flex;
+    justify-content: space-between;
+}
+.line{ 
+    width: 200px;
+  
     border-style:none dashed none none;
 }
 .h6{
