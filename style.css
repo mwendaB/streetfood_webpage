@@ -178,8 +178,10 @@ span{
 footer {
     
     background-color: #C9ECB5;
-    margin-bottom: 
-
+}
+.display{
+    d
+    
 }
 .footer{
     border-style:none dashed none none;
@@ -191,11 +193,11 @@ footer {
     font-size: 19px;
 }
 .mover{
-    text-align: center;
-    margin-bottom: auto;
+    flex;
+    
 }
 .mover1{
-    text-align: right block;
+    
 }
     
     
