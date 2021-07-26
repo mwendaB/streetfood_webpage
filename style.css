@@ -1,20 +1,11 @@
-
-#circle{
-    position: absolute;
-    background-color: #649549;
-    transform: translate(0%, -50%, -50%, 0%);
-    width: 900px;
-    height: 800px;
-    border-radius: 50%;
-    opacity: 0.4;
-    bottom: 30%;
-    left: 33%;
-    z-index: 2;
-    margin: -15px -15px;
+.eclipse{
+    background-image: url("circle03.png");
+    margin-left: 20px;
+    margin-top: -150px;
+    background-position: right; 
+    background-repeat: no-repeat; 
     
-
 }
-
 
 .eclipse{
     background-color: silver;
@@ -36,6 +27,7 @@ li{
 }
 .logo1{
     margin-left: 43px;
+    margin-top: 90px;
 }
 .button{
     display: inline-block;
