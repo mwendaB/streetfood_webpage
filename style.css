@@ -40,6 +40,7 @@ li{
 }
 .button{
     display: inline-block;
+    color: white;
     font-size: 14px;
     background: linear-gradient( #6CB840);
     border-radius: 20px;
@@ -71,12 +72,13 @@ li{
     margin-bottom: 400px;
     margin-right: 20px;
 }
+.text{
 
+}
 .eating{
     object-fit: contain;
    margin-left: -100px;
-  
-    float: left;
+      float: left;
   
 }
 span{
@@ -161,8 +163,11 @@ span{
 }
 .special{
  margin-left: 600px;
+ 
 }
-
+.special h3{
+    color: #6CB840;
+}
 #contact{
     background-color: #FFD77C;
   text-align: center;
@@ -210,6 +215,10 @@ footer {
 }
 .buttonb{
     float: right;
+    color: white;
+    font-size: 14px;
+    border-radius: 7px;
+    background-color: #6CB840;
   
   
     
