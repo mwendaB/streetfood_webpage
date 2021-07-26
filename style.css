@@ -1,7 +1,6 @@
 
 #circle{
     position: absolute;
-    overflow: scroll;
     background-color: #649549;
     transform: translate(0%, -50%, -50%, 0%);
     width: 900px;
@@ -12,9 +11,10 @@
     left: 33%;
     z-index: 2;
     margin: -15px -15px;
-    shape-outside: ellipse(300px, 500px at 100% 50%);
+    
 
 }
+
 
 .eclipse{
     background-color: silver;
