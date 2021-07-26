@@ -20,7 +20,6 @@
     background-color: silver;
     position: relative;
     font-size: 26px;
-    margin-left: 10px;
     overflow: auto;
 }
 #street{
@@ -29,14 +28,11 @@
 
 li{
     display: inline-table;
-    padding: 15px;
+    padding: 5px 10px;
     color: black;
     box-sizing: border-box;
+    margin: 40px 2px;
   
-}
-.logo{
-    text-align: center;
-    
 }
 .button{
     display: inline-block;
@@ -65,14 +61,13 @@ li{
     text-decoration: none;
     padding: 20px;
 }
-.modify{
-    float: center;
-    font-size: 20px;
-    margin-top: 60px;
-    margin-bottom: 400px;
-    margin-right: 20px;
-}
+
+
 .text{
+    position: relative;
+    bottom: -150px;
+    font-size: xx-large;
+  
 
 }
 .eating{
@@ -86,11 +81,12 @@ span{
 }
 #eat{
     color: #EAAB1B;
-    font-size: 25px;
+    font-size: 40px;
 }
 .explore{
     background-color: #C9ECB5;
     text-align: center;
+    margin-top: 400px;
     
     }
 .explore >h2{
