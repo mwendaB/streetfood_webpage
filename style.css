@@ -28,11 +28,14 @@
 
 li{
     display: inline-table;
-    padding: 5px 10px;
+    padding: 5px 5px;
     color: black;
     box-sizing: border-box;
-    margin: 40px 2px;
+    margin: 30px 1px;
   
+}
+.logo1{
+    margin-left: 43px;
 }
 .button{
     display: inline-block;
@@ -84,7 +87,7 @@ span{
     font-size: 40px;
 }
 .explore{
-    background-color: #C9ECB5;
+    background-color: #c2cabc;
     text-align: center;
     margin-top: 400px;
     
